@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class SpringBootWebDemoApplication {
 	
 	@ResponseBody
-	@RequestMapping("/")
+	@RequestMapping("/") 
 	String entry() {
 		return "My First Spring Boot App";
 	}
@@ -19,7 +19,6 @@ public class SpringBootWebDemoApplication {
 	@ResponseBody
 	@RequestMapping("/hello")
 	String hello() {
-		System.out.println("yyy");
 		return "Hello!";
 	}
 
