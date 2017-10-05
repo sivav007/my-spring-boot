@@ -19,7 +19,7 @@ public class SpringBootWebDemoApplication {
 	@ResponseBody
 	@RequestMapping("/hello")
 	String hello() {
-		return "Hello!";
+		return "Hello2!";
 	}
 
 	public static void main(String[] args) {
